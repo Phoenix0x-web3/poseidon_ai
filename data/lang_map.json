@@ -1,0 +1,799 @@
+[
+    {
+        "id": "NNl6r8mD7vthiJatiJt1",
+        "lang": [
+            "pl",
+            "es",
+            "pt",
+            "it",
+            "ru",
+            "fil",
+            "hu",
+            "tr",
+            "zh",
+            "ko",
+            "ro",
+            "el",
+            "en",
+            "fr",
+            "sk",
+            "de",
+            "uk",
+            "ta"
+        ],
+        "name": "Bradford",
+        "models": [
+            "eleven_flash_v2_5",
+            "eleven_flash_v2",
+            "eleven_multilingual_sts_v2",
+            "eleven_multilingual_v2",
+            "eleven_turbo_v2_5",
+            "eleven_v2_5_flash",
+            "eleven_turbo_v2",
+            "eleven_v2_flash"
+        ],
+        "languages": {
+            "pl": "eleven_multilingual_v2",
+            "es": "eleven_multilingual_v2",
+            "pt": "eleven_multilingual_v2",
+            "it": "eleven_multilingual_v2",
+            "ru": "eleven_multilingual_v2",
+            "fil": "eleven_turbo_v2_5",
+            "hu": "eleven_turbo_v2_5",
+            "tr": "eleven_turbo_v2_5",
+            "zh": "eleven_turbo_v2_5",
+            "ko": "eleven_turbo_v2_5",
+            "ro": "eleven_turbo_v2_5",
+            "el": "eleven_turbo_v2_5",
+            "en": "eleven_turbo_v2_5",
+            "fr": "eleven_turbo_v2_5",
+            "sk": "eleven_turbo_v2_5",
+            "de": "eleven_turbo_v2_5",
+            "uk": "eleven_turbo_v2_5",
+            "ta": "eleven_turbo_v2_5"
+        }
+    },
+    {
+        "id": "RILOU7YmBhvwJGDGjNmP",
+        "lang": [
+            "fil",
+            "hu",
+            "tr",
+            "cs",
+            "zh",
+            "ko",
+            "hr",
+            "ru",
+            "el",
+            "en",
+            "fr",
+            "pt",
+            "sk",
+            "sv",
+            "pl",
+            "uk",
+            "it",
+            "da"
+        ],
+        "name": "Jane - Professional Audiobook Reader",
+        "models": [
+            "eleven_multilingual_v2",
+            "eleven_flash_v2_5",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_v2_5_flash",
+            "eleven_turbo_v2",
+            "eleven_v2_flash"
+        ],
+        "languages": {
+            "fil": "eleven_turbo_v2_5",
+            "hu": "eleven_turbo_v2_5",
+            "tr": "eleven_turbo_v2_5",
+            "cs": "eleven_turbo_v2_5",
+            "zh": "eleven_turbo_v2_5",
+            "ko": "eleven_turbo_v2_5",
+            "hr": "eleven_turbo_v2_5",
+            "ru": "eleven_turbo_v2_5",
+            "el": "eleven_turbo_v2_5",
+            "en": "eleven_turbo_v2_5",
+            "fr": "eleven_turbo_v2_5",
+            "pt": "eleven_turbo_v2_5",
+            "sk": "eleven_turbo_v2_5",
+            "sv": "eleven_turbo_v2_5",
+            "pl": "eleven_turbo_v2_5",
+            "uk": "eleven_turbo_v2_5",
+            "it": "eleven_turbo_v2_5",
+            "da": "eleven_turbo_v2_5"
+        }
+    },
+    {
+        "id": "BZgkqPqms7Kj9ulSkVzn",
+        "lang": [
+            "fil",
+            "hu",
+            "ru",
+            "tr",
+            "hi",
+            "sk",
+            "ro",
+            "hr",
+            "fr",
+            "sv",
+            "en",
+            "ta",
+            "it",
+            "da"
+        ],
+        "name": "Eve",
+        "models": [
+            "eleven_multilingual_v2",
+            "eleven_turbo_v2_5",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2",
+            "eleven_v2_flash",
+            "eleven_flash_v2"
+        ],
+        "languages": {
+            "fil": "eleven_turbo_v2_5",
+            "hu": "eleven_turbo_v2_5",
+            "ru": "eleven_turbo_v2_5",
+            "tr": "eleven_turbo_v2_5",
+            "hi": "eleven_turbo_v2_5",
+            "sk": "eleven_turbo_v2_5",
+            "ro": "eleven_turbo_v2_5",
+            "hr": "eleven_turbo_v2_5",
+            "fr": "eleven_turbo_v2_5",
+            "sv": "eleven_turbo_v2_5",
+            "en": "eleven_turbo_v2_5",
+            "ta": "eleven_turbo_v2_5",
+            "it": "eleven_turbo_v2_5",
+            "da": "eleven_turbo_v2_5"
+        }
+    },
+    {
+        "id": "2EiwWnXFnvU5JabPnv8n",
+        "lang": [
+            "en"
+        ],
+        "name": "Clyde",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_multilingual_v1",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash"
+        }
+    },
+    {
+        "id": "9BWtsMINqrJLrRacOk9x",
+        "lang": [
+            "en",
+            "fr",
+            "zh",
+            "tr"
+        ],
+        "name": "Aria",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "fr": "eleven_multilingual_v2",
+            "zh": "eleven_multilingual_v2",
+            "tr": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "CwhRBWXzGAHq8TQ4Fs17",
+        "lang": [
+            "en",
+            "fr",
+            "de",
+            "nl",
+            "es"
+        ],
+        "name": "Roger",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "fr": "eleven_multilingual_v2",
+            "de": "eleven_multilingual_v2",
+            "nl": "eleven_multilingual_v2",
+            "es": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "EXAVITQu4vr4xnSDxMaL",
+        "lang": [
+            "en",
+            "fr",
+            "ar",
+            "zh",
+            "es",
+            "hi"
+        ],
+        "name": "Sarah",
+        "models": [
+            "eleven_turbo_v2",
+            "eleven_multilingual_v2",
+            "eleven_turbo_v2_5"
+        ],
+        "languages": {
+            "en": "eleven_turbo_v2",
+            "fr": "eleven_multilingual_v2",
+            "ar": "eleven_multilingual_v2",
+            "zh": "eleven_multilingual_v2",
+            "es": "eleven_multilingual_v2",
+            "hi": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "FGY2WhTYpPnrIDTdsKH5",
+        "lang": [
+            "en",
+            "fr",
+            "ar",
+            "zh",
+            "de"
+        ],
+        "name": "Laura",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "fr": "eleven_multilingual_v2",
+            "ar": "eleven_multilingual_v2",
+            "zh": "eleven_multilingual_v2",
+            "de": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "GBv7mTt0atIp3Br8iCZE",
+        "lang": [
+            "en"
+        ],
+        "name": "Thomas",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_multilingual_v1",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash"
+        }
+    },
+    {
+        "id": "IKne3meq5aSn9XLyUdCD",
+        "lang": [
+            "en",
+            "zh",
+            "pt",
+            "fil",
+            "es"
+        ],
+        "name": "Charlie",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_multilingual_v1",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "zh": "eleven_multilingual_v2",
+            "pt": "eleven_multilingual_v2",
+            "fil": "eleven_multilingual_v2",
+            "es": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "JBFqnCBsd6RMkjVDRZzb",
+        "lang": [
+            "en",
+            "fr",
+            "ar",
+            "ja",
+            "cs",
+            "fil",
+            "es",
+            "hi"
+        ],
+        "name": "George",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "fr": "eleven_multilingual_v2",
+            "ar": "eleven_multilingual_v2",
+            "ja": "eleven_multilingual_v2",
+            "cs": "eleven_multilingual_v2",
+            "fil": "eleven_multilingual_v2",
+            "es": "eleven_multilingual_v2",
+            "hi": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "N2lVS1w4EtoT3dr4eOWO",
+        "lang": [
+            "en",
+            "fr",
+            "hi"
+        ],
+        "name": "Callum",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_multilingual_v1",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "fr": "eleven_multilingual_v2",
+            "hi": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "SAz9YHcvj6GT2YYXdXww",
+        "lang": [
+            "en",
+            "it",
+            "fr",
+            "pt",
+            "zh"
+        ],
+        "name": "River",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_sts_v2",
+            "eleven_multilingual_v2",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "it": "eleven_multilingual_v2",
+            "fr": "eleven_multilingual_v2",
+            "pt": "eleven_multilingual_v2",
+            "zh": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "SOYHLrjzK2X1ezoPC6cr",
+        "lang": [
+            "en"
+        ],
+        "name": "Harry",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_multilingual_v1",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash"
+        }
+    },
+    {
+        "id": "TX3LPaxmHKxFdv7VOQHJ",
+        "lang": [
+            "en",
+            "de",
+            "pt",
+            "cs",
+            "pl",
+            "tr",
+            "hi"
+        ],
+        "name": "Liam",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_multilingual_v1",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "de": "eleven_multilingual_v2",
+            "pt": "eleven_multilingual_v2",
+            "cs": "eleven_multilingual_v2",
+            "pl": "eleven_multilingual_v2",
+            "tr": "eleven_multilingual_v2",
+            "hi": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "XB0fDUnXU5powFXDhCwa",
+        "lang": [
+            "en",
+            "zh",
+            "ar",
+            "cs",
+            "es",
+            "sv"
+        ],
+        "name": "Charlotte",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_multilingual_v1",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "zh": "eleven_multilingual_v2",
+            "ar": "eleven_multilingual_v2",
+            "cs": "eleven_multilingual_v2",
+            "es": "eleven_multilingual_v2",
+            "sv": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "Xb7hH8MSUJpSbSDYk0k2",
+        "lang": [
+            "en",
+            "it",
+            "fr",
+            "ar",
+            "ja",
+            "pl",
+            "hi"
+        ],
+        "name": "Alice",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "it": "eleven_multilingual_v2",
+            "fr": "eleven_multilingual_v2",
+            "ar": "eleven_multilingual_v2",
+            "ja": "eleven_multilingual_v2",
+            "pl": "eleven_multilingual_v2",
+            "hi": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "XrExE9yKIg1WjnnlVkGX",
+        "lang": [
+            "en",
+            "it",
+            "fr",
+            "de",
+            "ar",
+            "es"
+        ],
+        "name": "Matilda",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_multilingual_v1",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "it": "eleven_multilingual_v2",
+            "fr": "eleven_multilingual_v2",
+            "de": "eleven_multilingual_v2",
+            "ar": "eleven_multilingual_v2",
+            "es": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "bIHbv24MWmeRgasZH58o",
+        "lang": [
+            "en",
+            "fr",
+            "de",
+            "pt",
+            "zh",
+            "cs",
+            "fil",
+            "sk",
+            "es",
+            "sv"
+        ],
+        "name": "Will",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "fr": "eleven_multilingual_v2",
+            "de": "eleven_multilingual_v2",
+            "pt": "eleven_multilingual_v2",
+            "zh": "eleven_multilingual_v2",
+            "cs": "eleven_multilingual_v2",
+            "fil": "eleven_multilingual_v2",
+            "sk": "eleven_multilingual_v2",
+            "es": "eleven_multilingual_v2",
+            "sv": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "cgSgspJ2msm6clMCkdW9",
+        "lang": [
+            "en",
+            "fr",
+            "ar",
+            "ja",
+            "zh",
+            "de",
+            "cs",
+            "hi"
+        ],
+        "name": "Jessica",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "fr": "eleven_multilingual_v2",
+            "ar": "eleven_multilingual_v2",
+            "ja": "eleven_multilingual_v2",
+            "zh": "eleven_multilingual_v2",
+            "de": "eleven_multilingual_v2",
+            "cs": "eleven_multilingual_v2",
+            "hi": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "cjVigY5qzO86Huf0OWal",
+        "lang": [
+            "en",
+            "fr",
+            "pt",
+            "de",
+            "sk",
+            "es"
+        ],
+        "name": "Eric",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "fr": "eleven_multilingual_v2",
+            "pt": "eleven_multilingual_v2",
+            "de": "eleven_multilingual_v2",
+            "sk": "eleven_multilingual_v2",
+            "es": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "iP95p4xoKVk53GoZ742B",
+        "lang": [
+            "en",
+            "fr",
+            "ar",
+            "pt",
+            "sv",
+            "hi"
+        ],
+        "name": "Chris",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "fr": "eleven_multilingual_v2",
+            "ar": "eleven_multilingual_v2",
+            "pt": "eleven_multilingual_v2",
+            "sv": "eleven_multilingual_v2",
+            "hi": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "nPczCjzI2devNBz1zQrb",
+        "lang": [
+            "en",
+            "ar",
+            "zh",
+            "pt",
+            "de",
+            "nl",
+            "sk",
+            "ro",
+            "hi"
+        ],
+        "name": "Brian",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "ar": "eleven_multilingual_v2",
+            "zh": "eleven_multilingual_v2",
+            "pt": "eleven_multilingual_v2",
+            "de": "eleven_multilingual_v2",
+            "nl": "eleven_multilingual_v2",
+            "sk": "eleven_multilingual_v2",
+            "ro": "eleven_multilingual_v2",
+            "hi": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "onwK4e9ZLuTAKqWW03F9",
+        "lang": [
+            "en",
+            "de",
+            "tr"
+        ],
+        "name": "Daniel",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_multilingual_v1",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "de": "eleven_multilingual_v2",
+            "tr": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "pFZP5JQG7iQjIQuC4Bku",
+        "lang": [
+            "it",
+            "de",
+            "zh",
+            "cs",
+            "nl",
+            "pl"
+        ],
+        "name": "Lily",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "it": "eleven_multilingual_v2",
+            "de": "eleven_multilingual_v2",
+            "zh": "eleven_multilingual_v2",
+            "cs": "eleven_multilingual_v2",
+            "nl": "eleven_multilingual_v2",
+            "pl": "eleven_multilingual_v2"
+        }
+    },
+    {
+        "id": "pqHfZKP75CvOlQylNhV4",
+        "lang": [
+            "en",
+            "fr",
+            "ar",
+            "zh",
+            "de",
+            "cs"
+        ],
+        "name": "Bill",
+        "models": [
+            "eleven_v2_flash",
+            "eleven_flash_v2",
+            "eleven_turbo_v2_5",
+            "eleven_multilingual_v2",
+            "eleven_v2_5_flash",
+            "eleven_flash_v2_5",
+            "eleven_turbo_v2"
+        ],
+        "languages": {
+            "en": "eleven_v2_flash",
+            "fr": "eleven_multilingual_v2",
+            "ar": "eleven_multilingual_v2",
+            "zh": "eleven_multilingual_v2",
+            "de": "eleven_multilingual_v2",
+            "cs": "eleven_multilingual_v2"
+        }
+    }
+]

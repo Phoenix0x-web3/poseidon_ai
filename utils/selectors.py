@@ -1,0 +1,40 @@
+from dataclasses import dataclass
+@dataclass
+class Selector:
+    name: str
+    value: str
+WELCOME = Selector(name="WELCOME", value=rf"body > div.min-h-screen.relative.overflow-hidden.bg-black.dark > div.fixed.inset-0.bg-black.z-50.flex.flex-col.h-dvh.w-screen.p-8.overflow-hidden > div > div.flex.flex-col.gap-16.justify-between.h-full.min-h-0.md\:py-10 > div.flex-1.min-h-0.flex.flex-col.md\:justify-center > div > h1")
+## LOGIN
+TERMS = Selector(name="TERMS", value=rf"body > div.min-h-screen.relative.overflow-hidden.bg-black.dark > div.fixed.inset-0.bg-black.z-50.flex.flex-col.h-dvh.w-screen.p-8.overflow-hidden > div > div.flex.flex-col.gap-16.justify-between.h-full.min-h-0.md\:py-10 > div.flex.flex-col.gap-8.relative > label > button")
+GET_STARTED = Selector(name="GET_STARTED", value=rf"body > div.min-h-screen.relative.overflow-hidden.bg-black.dark > div.fixed.inset-0.bg-black.z-50.flex.flex-col.h-dvh.w-screen.p-8.overflow-hidden > div > div.flex.flex-col.gap-16.justify-between.h-full.min-h-0.md\:py-10 > div.flex.flex-col.gap-8.relative > button")
+EMAIL_CONTINUE = Selector(name="EMAIL_CONTINUE", value=rf"div > div > div > div > div > div:nth-child(2) > div.login-view__container > div > div.login-view__scroll__section.login-view__scroll__section--email > form > button")
+INCORRECT = Selector(name="INCORRECT", value=rf"div > div > div > div > div > div:nth-child(2) > div.error-container.error-container--error.email-verification__error-message > p")
+TOO_MANY = Selector(name="TOO_MANY", value=rf"div > div > div > div > div > div:nth-child(2) > div.error-container.error-container--error.login-view__error-container")
+## INTRO
+NEXT = Selector(name="NEXT", value=rf"body > div.fixed.inset-0.bg-black.flex.flex-col > div.flex-1.flex.flex-col.relative.max-w-5xl.mx-auto.w-full.z-20 > div.relative.z-10.flex.flex-col.h-full > div > div.mt-8.flex.justify-center.gap-4 > button.inline-flex.items-center.justify-center.whitespace-nowrap.text-sm.font-medium.ring-offset-background.transition-colors.focus-visible\:outline-none.focus-visible\:ring-2.focus-visible\:ring-ring.focus-visible\:ring-offset-2.disabled\:pointer-events-none.disabled\:opacity-50.border.h-10.border-white.bg-white.text-black.hover\:bg-white.hover\:text-black.cursor-pointer.px-10.py-6.flex-1.md\:flex-none.rounded-full")
+INTRO_START_RECORD = Selector(name="INTRO_START_RECORD", value=rf"body > div.fixed.inset-0.bg-black.flex.flex-col.overflow-y-auto.overflow-x-hidden > div.flex-1.flex.flex-col.relative.max-w-5xl.mx-auto.w-full.z-20 > div > div > div.w-full.max-w-lg.mx-auto > button")
+INTRO_START_2 = Selector(name="INTRO_START_2", value=rf"body > div.fixed.inset-0.bg-black.flex.flex-col.overflow-y-auto.overflow-x-hidden > div.flex-1.flex.flex-col.relative.max-w-5xl.mx-auto.w-full.z-20 > div > div > div.w-full.max-w-lg.mx-auto > button")
+INTRO_STOP_RECORD = Selector(name="INTRO_STOP_RECORD", value=rf"body > div.fixed.inset-0.bg-black.flex.flex-col.overflow-y-auto.overflow-x-hidden > div.flex-1.flex.flex-col.relative.max-w-5xl.mx-auto.w-full.z-20 > div > div > div.w-full.max-w-lg.mx-auto > button")
+INTRO_SUBMIT_RECORD = Selector(name="INTRO_SUBMIT_RECORD", value=rf"body > div.fixed.inset-0.bg-black.flex.flex-col.overflow-y-auto.overflow-x-hidden > div.flex-1.flex.flex-col.relative.max-w-5xl.mx-auto.w-full.z-20 > div > div > div.flex.flex-col.items-center.space-y-4.w-full.max-w-lg.mx-auto > div > button.inline-flex.items-center.justify-center.whitespace-nowrap.text-sm.font-medium.ring-offset-background.transition-colors.focus-visible\:outline-none.focus-visible\:ring-2.focus-visible\:ring-ring.focus-visible\:ring-offset-2.disabled\:pointer-events-none.border.h-10.border-white.bg-white.text-black.cursor-pointer.hover\:text-black.hover\:bg-white.px-8.py-6.w-full.rounded-full.disabled\:opacity-50")
+#MAIN_PAGE
+HOME = Selector(name="HOME", value=rf"body > div.flex.h-screen.bg-background.overflow-hidden > div.hidden.lg\:block.flex-shrink-0 > div > div > div.relative.overflow-hidden.flex-1.py-4 > div > div > nav > a:nth-child(1)")
+LEADERBOARD = Selector(name="LEADERBOARD", value=rf"body > div.flex.h-screen.bg-background.overflow-hidden > div.hidden.lg\:block.flex-shrink-0 > div > div > div.relative.overflow-hidden.flex-1.py-4 > div > div > nav > a:nth-child(2)")
+PROFILE = Selector(name="PROFILE", value=rf"body > div.flex.h-screen.bg-background.overflow-hidden > div.hidden.lg\:block.flex-shrink-0 > div > div > div.relative.overflow-hidden.flex-1.py-4 > div > div > nav > a:nth-child(3)")
+
+#CAMPAIGN PAGE
+DAILY_CAP = Selector(name="DAILY_CAP", value=rf"#radix-\:r1a\: > div.flex.justify-center.mt-2 > a")
+START_CAMPAIGN = Selector(name="START_CAMPAIGN", value=rf"body > div.flex.h-screen.bg-background.overflow-hidden > div.flex.flex-col.flex-1.overflow-x-hidden > main > div > div > div.relative.-mt-32.md\:mt-0.flex-1.flex.flex-col > div > div > div.w-full.px-4.md\:px-0 > a")
+IM_READY = Selector(name="IM_READY", value=rf"body > div.flex.h-screen.bg-background.overflow-hidden > div.flex.flex-col.flex-1.overflow-x-hidden > main > div > div > div > div.flex-1.flex.flex-col.relative > div > div > div:nth-child(3) > div > span > button")
+START_RECORD = Selector(name="START_RECORD", value=rf"body > div.flex.h-screen.bg-background.overflow-hidden > div.flex.flex-col.flex-1.overflow-x-hidden > main > div > div > div > div.flex-1.flex.flex-col.relative > div > div > div:nth-child(3) > div > span > button")
+STOP_RECORD = Selector(name="STOP_RECORD", value=rf"body > div.flex.h-screen.bg-background.overflow-hidden > div.flex.flex-col.flex-1.overflow-x-hidden > main > div > div > div > div.flex-1.flex.flex-col.relative > div > div > div:nth-child(3) > div > span > button")
+SUBMIT_RECORD = Selector(name="SUBMIT_RECORD", value=rf"body > div.flex.h-screen.bg-background.overflow-hidden > div.flex.flex-col.flex-1.overflow-x-hidden > main > div > div > div > div.flex-1.flex.flex-col.relative > div > div > div > div > div.flex.flex-col.gap-4.w-full.items-center > span:nth-child(2) > button")
+FINISH_CAMP = Selector(name="FINISH_CAMP", value=rf"body > div.flex.h-screen.bg-background.overflow-hidden > div.flex.flex-col.flex-1.overflow-x-hidden > main > div > div > div > div.flex-1.flex.flex-col.relative > div > div > div > div > div.flex.flex-col.gap-4.w-full.items-center > span:nth-child(2) > a")
+
+#LEADERBOARD PAGE
+PTS = Selector(name="PTS", value=rf"body > div.flex.h-screen.bg-background.overflow-hidden > div.flex.flex-col.flex-1.overflow-x-hidden > main > div > div.w-full.max-w-full.overflow-x-auto > div > table > tbody > tr > td.p-4.align-middle.\[\&\:has\(\[role\=checkbox\]\)\]\:pr-0.text-right.w-\[80px\].max-w-\[100px\] > div > div")
+RANK = Selector(name="RANK", value=rf"body > div.flex.h-screen.bg-background.overflow-hidden > div.flex.flex-col.flex-1.overflow-x-hidden > main > div > div.w-full.max-w-full.overflow-x-auto > div > table > tbody > tr > td.p-4.align-middle.\[\&\:has\(\[role\=checkbox\]\)\]\:pr-0.w-\[60px\].max-w-\[80px\] > div > div")
+
+#PROFILE PAGE
+REF_LINK = Selector(name="REF_LINK", value=rf"body > div.flex.h-screen.bg-background.overflow-hidden > div.flex.flex-col.flex-1.overflow-x-hidden > main > div > div.dark\:bg-\[\#2B2B2B\].bg-secondary.rounded-3xl.px-6.py-5.flex.flex-col.gap-4.text-sm > div.flex.flex-col.gap-2.w-full > div > div.w-full.rounded-md.bg-white.dark\:bg-\[rgb\(29\,29\,29\)\].text-xs.relative.md\:text-sm.h-12.flex.items-center.justify-between.max-w-full.overflow-hidden > div")
+ENTER_REF = Selector(name="ENTER_REF", value=rf"body > div.flex.h-screen.bg-background.overflow-hidden > div.flex.flex-col.flex-1.overflow-x-hidden > main > div > div.dark\:bg-\[\#2B2B2B\].bg-secondary.rounded-3xl.px-6.py-5.flex.flex-col.gap-4.text-sm > div:nth-child(2) > div.flex.gap-2 > input")
+CLAIM_REF = Selector(name="CLAIM_REF", value=rf"body > div.flex.h-screen.bg-background.overflow-hidden > div.flex.flex-col.flex-1.overflow-x-hidden > main > div > div.dark\:bg-\[\#2B2B2B\].bg-secondary.rounded-3xl.px-6.py-5.flex.flex-col.gap-4.text-sm > div:nth-child(2) > div.flex.gap-2 > button")
