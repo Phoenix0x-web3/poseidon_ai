@@ -28,7 +28,7 @@ Poseidon is a Web3 project tackling the shortage of real-world data for training
 1. Clone the repository:
 ```
 git clone https://github.com/Phoenix0x-web3/poseidon_ai
-cd poseidon
+cd poseidon_ai
 ```
 
 2. Install dependencies:
