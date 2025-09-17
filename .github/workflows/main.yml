@@ -1,0 +1,35 @@
+name: Build PyArmor runtime (macOS arm64)
+
+on:
+  workflow_dispatch: {}   # run manually
+  # you can also trigger on tags:
+  # push:
+  #   tags: ['v*.*.*']
+
+jobs:
+  macos:
+    runs-on: macos-latest   # Apple Silicon (arm64)
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'   # use same major/minor as your users if possible
+
+      - name: Install PyArmor
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyarmor
+
+      - name: Obfuscate modules for macOS
+        run: |
+          pyarmor gen -r -O build/macos_obf modules
+          ls -la build/macos_obf/pyarmor_runtime_000000 || true
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: macos_obf
+          path: build/macos_obf/
