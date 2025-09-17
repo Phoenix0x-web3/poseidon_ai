@@ -5,6 +5,7 @@ More info:
 [Telegram Chat](https://t.me/phoenix_w3_space)
 
 [Инструкция на русcком](https://phoenix-14.gitbook.io/phoenix/proekty/poseidon)</br>
+[Instruction English version](https://phoenix-14.gitbook.io/phoenix/en/projects/poseidon)</br>
 
 
 
@@ -68,7 +69,7 @@ poseidon/
 ## Configuration
 
 ### 1. files folder
-- `email_data.txt`: Work with email iCloud(format: `primary_email:app-specific-password:fake_email`)
+- `email_data.txt`: Work with email iCloud(format: `primary_email-iCloud:app-specific-password:fake_email`)
 - `proxy.txt`: One proxy per line (format: `http://user:pass@ip:port`)
 - `reserve_proxy.txt`: One proxy per line (format: `http://user:pass@ip:port`)
 
@@ -85,7 +86,7 @@ You can generate up to 20 addresses this way and it’s safer to do it 1–2 tim
 #### App-specific password for IMAP
 Go to Apple account support ([support.apple.com](https://support.apple.com/en-us/102525)) and generate an `app-specific password` so IMAP/SMTP access will work.
 
-Place the credentials in your `email_data.txt` file using this format: `primary_email:app-specific-password:fake_email`
+Place the credentials in your `email_data.txt` file using this format: `primary_email_iCloud:app-specific-password:fake_email`. (ex. emailName@icloud.com:xkrt-ujqp-qmna-sdtd:hide-EmailName@icloud.com)
 
 ### Elevenlabs api key Setup
 To generate voice in the script, we use the ElevenLabs Voice AI platform. For this, you’ll need to purchase an API key (cost $11)
