@@ -33,7 +33,7 @@ class Settings(Singleton):
 
         self.eleven_labs_api_key = json_data.get("eleven_labs_api_key", "")
         self.capmonster_api_key = json_data.get("capmonster_api_key", "")
-        self.headless_mode = json_data.get("headless_mode", False)
+        self.show_browser = json_data.get("show_browser", False)
 
         self.invite_codes = json_data.get("invite_codes", [])
         self.only_settings_invite_codes = json_data.get("only_settings_invite_codes", False)

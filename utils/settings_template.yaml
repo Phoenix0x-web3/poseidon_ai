@@ -31,8 +31,8 @@ eleven_labs_api_key : ''
 # Api Key from https://dash.capmonster.cloud/
 capmonster_api_key: ''
 
-# Run browser in headless mode (false - visible, true - hidden)
-headless_mode: false
+# Show browser 
+show_browser: true
 
 # Delay before running the new cicle of wallets after it has completed all actions (1 - 2 hrs default)
 random_pause_wallet_after_completion:

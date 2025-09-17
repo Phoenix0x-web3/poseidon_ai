@@ -5,6 +5,7 @@ import inquirer
 from colorama import Fore
 from inquirer import themes
 from rich.console import Console
+import utils.pyarmor
 from utils.create_files import create_files, reset_folder
 from functions.activity import activity
 from utils.db_api.migrate import db
