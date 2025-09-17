@@ -154,7 +154,7 @@ random_pause_start_wallet:
   min: 0
   max: 60
 
-# Invite Codes for Poseidon, can be used [GQ672VCP, HOTCHULA]
+# Invite Codes for Poseidon, can be used [GQ672VCP]
 invite_codes: []
 
 #Use only settings invite codes. If true, only invite codes from the setting above will be applied. If False, random ref codes from both invite_codes and database will be applied.
