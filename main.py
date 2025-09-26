@@ -5,41 +5,31 @@ import inquirer
 from colorama import Fore
 from inquirer import themes
 from rich.console import Console
-import utils.pyarmor
-from utils.create_files import create_files, reset_folder
+
+from check_python import check_python_version
+from data.constants import PROJECT_NAME
 from functions.activity import activity
+from utils.create_files import create_files, reset_folder
 from utils.db_api.migrate import db
 from utils.db_api.models import Wallet
-from utils.db_import_export_sync import Import, Export, Sync
-from utils.output import show_channel_info
+from utils.db_import_export_sync import Export, Import, Sync
 from utils.git_version import check_for_updates
-from data.constants import PROJECT_NAME
+from utils.output import show_channel_info
 
 console = Console()
 
- 
 
-PROJECT_ACTIONS =   [
-                    "1. Run All Activities",
-                    "Back"
-                    ]
+PROJECT_ACTIONS = ["1. Run All Activities", "Back"]
 
-UTILS_ACTIONS = [
-                    "1. Reset files Folder",
-                    "Back"
-                ]
+UTILS_ACTIONS = ["1. Reset files Folder", "Back"]
+
 
 async def choose_action():
     cat_question = [
         inquirer.List(
             "category",
-            message=Fore.LIGHTBLACK_EX + 'Choose action',
-            choices=[
-                "DB Actions",
-                PROJECT_NAME,
-                "Utils",
-                "Exit"
-            ],
+            message=Fore.LIGHTBLACK_EX + "Choose action",
+            choices=["DB Actions", PROJECT_NAME, "Utils", "Exit"],
         )
     ]
 
@@ -51,15 +41,12 @@ async def choose_action():
         raise SystemExit(0)
 
     if category == "DB Actions":
-        actions = ["Import wallets to Database",
-                   "Sync wallets with tokens and proxies",
-                   "Export wallets to TXT",
-                   "Back"]
+        actions = ["Import wallets to Database", "Sync wallets with tokens and proxies", "Export wallets to TXT", "Back"]
 
     if category == PROJECT_NAME:
         actions = PROJECT_ACTIONS
 
-    if category == 'Utils':
+    if category == "Utils":
         actions = UTILS_ACTIONS
 
     act_question = [
@@ -86,9 +73,8 @@ async def choose_action():
     elif action == "1. Run All Activities":
         await activity(action=1)
 
-
     elif action == "1. Reset files Folder":
-        console.print("This action will delete the files folder and reset it.") 
+        console.print("This action will delete the files folder and reset it.")
         answer = input("Are you sure you want to perform this action? y/N ")
         if answer.lower() == "y":
             reset_folder()
@@ -100,17 +86,19 @@ async def choose_action():
 
     await choose_action()
 
+
 async def main():
+    check_python_version()
     create_files()
 
     await check_for_updates(repo_name=PROJECT_NAME)
     db.ensure_model_columns(Wallet)
     await choose_action()
 
-if __name__ == '__main__':
-    
+
+if __name__ == "__main__":
     show_channel_info(PROJECT_NAME)
-    
+
     if platform.system() == "Windows":
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
         asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())

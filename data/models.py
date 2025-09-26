@@ -3,16 +3,12 @@ from pathlib import Path
 
 from data.config import DATA_DIR
 from libs.eth_async.classes import Singleton
-from libs.eth_async.data.models import RawContract, DefaultABIs
+from libs.eth_async.data.models import DefaultABIs, RawContract
 
 
 class Contracts(Singleton):
+    ETH = RawContract(title="ETH", address="0x0000000000000000000000000000000000000000", abi=DefaultABIs.Token)
 
-    ETH = RawContract(
-        title='ETH',
-        address='0x0000000000000000000000000000000000000000',
-        abi=DefaultABIs.Token
-    )
 
 LANG_MAP = {
     "en": "English",
@@ -33,6 +29,7 @@ LANG_MAP = {
     "hi": "Hindi",
 }
 
+
 def ai_models():
     path = Path(DATA_DIR) / "lang_map.json"
     voices = json.loads(path.read_text(encoding="utf-8"))
@@ -44,14 +41,11 @@ def ai_models():
         for code, model_id in languages.items():
             if code in LANG_MAP:
                 human = LANG_MAP[code]
-                lang_map[human] = {
-                    "code": code,
-                    "model_id": model_id
-                }
+                lang_map[human] = {"code": code, "model_id": model_id}
 
         voice["lang_map"] = lang_map
-        voice.pop('lang')
-        voice.pop('languages')
-        voice.pop('models')
+        voice.pop("lang")
+        voice.pop("languages")
+        voice.pop("models")
 
-    return [voice for voice in voices if 'English' in list(voice['lang_map'].keys())]
+    return [voice for voice in voices if "English" in list(voice["lang_map"].keys())]
