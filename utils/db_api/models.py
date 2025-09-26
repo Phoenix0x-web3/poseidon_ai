@@ -1,17 +1,17 @@
-import random
 from datetime import datetime
 
-from sqlalchemy.dialects.postgresql import JSONB
-from sqlalchemy.orm import DeclarativeBase
-from sqlalchemy.orm import Mapped, mapped_column
-from data.settings import Settings
+from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
+
 from data.constants import PROJECT_SHORT_NAME
+from data.settings import Settings
+
 
 class Base(DeclarativeBase):
     pass
 
+
 class Wallet(Base):
-    __tablename__ = 'wallets'
+    __tablename__ = "wallets"
 
     id: Mapped[int] = mapped_column(primary_key=True)
     email_data: Mapped[str] = mapped_column(unique=True, default=None, nullable=True)
@@ -24,8 +24,7 @@ class Wallet(Base):
     ai_model: Mapped[str] = mapped_column(default={})
     completed: Mapped[bool] = mapped_column(default=False)
 
-
     def __repr__(self):
         if Settings().show_email_in_logs:
-            return f'[{PROJECT_SHORT_NAME} | {self.id} | {self.email_data.split(":")[0] if "icloud" not in self.email_data else self.email_data.split(":")[-1]}]'
-        return f'[{PROJECT_SHORT_NAME} | {self.id}]'
+            return f"[{PROJECT_SHORT_NAME} | {self.id} | {self.email_data.split(':')[0] if 'icloud' not in self.email_data else self.email_data.split(':')[-1]}]"
+        return f"[{PROJECT_SHORT_NAME} | {self.id}]"

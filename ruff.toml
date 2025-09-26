@@ -31,7 +31,9 @@ exclude = [
     "functions/controller.py",
     "modules/tesst_module.py",
     "utils/captcha/*.py",
-    "utils/discord/*.py"
+    "utils/discord/*.py",
+    "modules/*",
+    "runtimes/*"
 ]
 
 # Same as Black.
