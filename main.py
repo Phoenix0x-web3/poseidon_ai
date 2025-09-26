@@ -108,7 +108,8 @@ async def main():
     await choose_action()
 
 if __name__ == '__main__':
-    
+    check_python_version()
+
     show_channel_info(PROJECT_NAME)
     
     if platform.system() == "Windows":
